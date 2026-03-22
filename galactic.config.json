@@ -1,0 +1,16 @@
+{
+  "type": "worker",
+  "name": "velo",
+  "appDir": ".",
+  "build": "pnpm build",
+  "staging": {
+    "worker": {
+      "env": "staging"
+    }
+  },
+  "production": {
+    "worker": {
+      "env": "production"
+    }
+  }
+}
